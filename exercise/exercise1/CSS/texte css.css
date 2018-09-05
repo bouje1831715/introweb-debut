@@ -1,12 +1,31 @@
 body{
     background: center no-repeat url("../image/fond.jpg");
-    front-size:large;
+    front-size:xx-large;
+    text-align:justify;
+
 }
 h1 {
     color:Red;
     text-decoration: underline;
     text-align:center;
 }
+h2{
+    color:red;
+    text-decoration:underline;
+    text-align:center;
+}
 .disque{
     list-style-type:square;
+}
+
+#gras{
+    front-weight:bold;
+}
+ol,li{
+    front-weight:bold;
+    text-align:center;
+}
+ul{
+    front-weight:bold;
+    text-align:center;
 }
