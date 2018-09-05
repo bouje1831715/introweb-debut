@@ -4,4 +4,9 @@ body{
 }
 h1 {
     color:Red;
+    text-decoration: underline;
+    text-align:center;
+}
+.disque{
+    list-style-type:square;
 }
