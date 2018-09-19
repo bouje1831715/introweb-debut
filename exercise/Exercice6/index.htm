@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<title>FORMULAIRE</title>
+	<meta  charset="UTF-8">
+	<meta name="title" content="Formulaire d'inscription">
+	<meta name="description" content="description de la page">
+	<meta name="author" content="Jérome Bouchard">
+	<meta name="keywords" content="mots-clé1, mots-clé2, ...">
+	<meta name="robots" content="index,follow">
+	<link rel="stylesheet " href ="CSS/Style.css"/>
+</head>
+<body>
+    <form id="inscription" method ="post" action="">
+    <div class="form-style">
+        <h1> FORMULAIRE D'INSCRIPTION </h1>
+	    <br/>
+	    <br/>
+	    <fieldset>
+		<legend> Informations personelles</legend>
+        <div>
+            <label for="nom">Nom<span class="point">*</span>
+                <input id="nom" name="nom" type="text" required>
+            </label>
+        </div>
+        <br/>
+        <div>
+            <label for="prénom">Prénom<span class="point">*</span>
+                <input id="prénom" name="prénom" type="text" required>
+            </label>
+        </div>
+        <br/>
+        <div>
+            <label for="adresse">adresse
+                <input id="adresse" name="adresse" type="text" placeholder="999 rue" >
+            </label>
+        </div>
+        <br/>
+        <div>
+            <label for="ville">ville
+                <input id="ville" name="ville" type="text">
+            </label>
+        </div>
+        <br/>
+        <div>
+            <label for="téléphone">téléphone<span class="point">*</span>
+                <input id="téléphone" name="téléphone" type="text" placeholder="999 999-9999" required>
+            </label>
+        </div>
+        <br/>
+        <div>
+            <label for="dateI">date d'inscription<span class="point">*</span>
+                <input id="dateI" name="nameI" type="text" placeholder="jj/ms/aaaa" required>
+            </label>
+        </div>
+        <br/>
+        <div>
+            <label for="dateF">date de fin
+                <input id="dateF" name="dateF" type="date">
+            </label>
+        </div>
+        <br/>
+        <p>
+            <input id="male" name="cardtype" type="radio">
+            <label for="male">homme</label>
+            <input id="female" name="cardtype" type="radio">
+            <label for="female">femme</label>
+        </p>
+        <br/>
+        <div>
+            <label for="chois">choix carte</label>
+            <select name="choix">
+
+                <option>visa
+                <option>mastercard
+
+            </select>
+        </div>
+        <br/>
+        <div>
+            <label for="carte">carte de crédit<span class="point">*</span>
+             <input id="carte" name="carte" type="text" placeholder="9999 9999 9999 9999" required>
+            </label>
+        </div>
+        <br/>
+        <div>
+            <label for="passe">mot de passe<span class="point">*</span>
+            <input id="passe" name="passe" type="password" required>
+            </label>
+        </div>
+        <br/>
+        <div>
+            <label for="courriel">courriel
+                <input id="courriel" name="courriel" type="text" placeholder="aaaaaa@aaaa.aaa">
+            </label>
+        </div>
+        <br/>
+        <div>
+            <input type="reset" value="Réinitialiser le formulaire">
+        </div>
+    </fieldset>
+
+</div>
+</body>
+</html>
